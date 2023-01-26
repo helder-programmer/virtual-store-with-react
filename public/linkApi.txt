@@ -1,0 +1,6 @@
+https://api.mercadolibre.com/sites/MLB/search?q=celular
+
+
+
+https://api.mercadolibre.com/items/$ItemID
+

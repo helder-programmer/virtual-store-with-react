@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.navbar-buttons {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    padding: 15px 0px;
+}
+
+.navbar-button > a{
+    text-decoration: none;
+    font-size: 17pt;
+    color: white;
+    font-weight: bold;
+}

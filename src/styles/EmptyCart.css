@@ -1,0 +1,11 @@
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.3;
+}
+
+.empty-cart > i {
+    font-size: 60pt;
+    color: rgb(112, 112, 112);
+}

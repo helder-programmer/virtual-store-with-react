@@ -1,0 +1,65 @@
+form {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.text-form {
+    width: 35%;
+}
+
+.text-form > input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #bab9b9;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14pt;
+}
+
+.text-form > input::placeholder {
+    font-size: 12pt;
+}
+
+.text-form input:focus {
+    box-shadow: 0px 0px 5px rgb(97, 97, 234);
+    transition: box-shadow 0.2s linear;
+}
+
+
+.btn-search {
+    background-color: rgb(49, 49, 248);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 14pt;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    opacity: 0.7;
+    transition: opacity 0.1s linear;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        flex-direction: column;
+    }
+
+    .text-form {
+        width: 100%;
+    }
+
+    .text-form > input {
+        width: 100%;
+    }
+
+    .btn-search {
+        justify-content: center;
+    }
+}
