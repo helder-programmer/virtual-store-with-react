@@ -5,5 +5,7 @@ Este repositório possui um modelo de loja de celulares online com a utilizaçã
 **Aprendizados**
 
 -Utilização prática de React Hooks
+<br/>
 -Consumo de API utilizando Fetch para carregar states do React
+<br/>
 -Utilização de Props para reaproveitamento de Components
