@@ -1,4 +1,4 @@
-# 🛒 Uma Loja Virtual com ReactJs
+# 🚀 Uma Loja Virtual com ReactJs
 Este repositório possui um modelo de loja de celulares online com a utilização do conceito de carrinho para simular compra de novos produtos.
 
 
